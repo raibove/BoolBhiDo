@@ -85,15 +85,15 @@ function setup() {
   halfW = width / 2;
   halfH = height / 2;
     
-      var firebaseConfig = {
+  // Your web app's Firebase configuration
+    var firebaseConfig = {
     apiKey: "AIzaSyBPg-GIssXVYKtMc3QQvaKOSoKMLmy2a-M",
     authDomain: "boolbhido.firebaseapp.com",
     databaseURL: "https://boolbhido.firebaseio.com",
     projectId: "boolbhido",
     storageBucket: "boolbhido.appspot.com",
     messagingSenderId: "91218524314",
-    appId: "1:91218524314:web:78f753cc4b14a6c431c723",
-    measurementId: "G-VW2L2HJBPZ"
+    appId: "1:91218524314:web:78f753cc4b14a6c431c723"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
