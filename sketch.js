@@ -97,7 +97,6 @@ function setup() {
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
   database = firebase.database();
  }
 
